@@ -1,20 +1,56 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/Users/kelinchristi/.nvm/v0.10.36/bin/node',
 1 verbose cli   '/Users/kelinchristi/.nvm/v0.10.36/bin/npm',
-1 verbose cli   'edit',
-1 verbose cli   'node-red-contrib-alexa[@0.0.6]' ]
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/crikeli/node-red-contrib-alexa' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.36
-4 error Error: ENOENT, lstat '/Users/kelinchristi/Documents/node-red-heroku-master/node_modules/node-red-contrib-alexa[@0.0.6]'
-5 error If you need help, you may report this *entire* log,
-5 error including the npm and node versions, at:
-5 error     <http://github.com/npm/npm/issues>
-6 error System Darwin 16.0.0
-7 error command "/Users/kelinchristi/.nvm/v0.10.36/bin/node" "/Users/kelinchristi/.nvm/v0.10.36/bin/npm" "edit" "node-red-contrib-alexa[@0.0.6]"
-8 error cwd /Users/kelinchristi/Documents/node-red-heroku-master
-9 error node -v v0.10.36
-10 error npm -v 1.4.28
-11 error path /Users/kelinchristi/Documents/node-red-heroku-master/node_modules/node-red-contrib-alexa[@0.0.6]
-12 error code ENOENT
-13 error errno 34
-14 verbose exit [ 34, true ]
+4 warn package.json node-red-heroku@0.0.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'https://github.com/crikeli/node-red-contrib-alexa', null ]
+7 verbose cache add name=undefined spec="https://github.com/crikeli/node-red-contrib-alexa" args=["https://github.com/crikeli/node-red-contrib-alexa",null]
+8 verbose parsed url { protocol: 'https:',
+8 verbose parsed url   slashes: true,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: 'github.com',
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: 'github.com',
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '/crikeli/node-red-contrib-alexa',
+8 verbose parsed url   path: '/crikeli/node-red-contrib-alexa',
+8 verbose parsed url   href: 'https://github.com/crikeli/node-red-contrib-alexa' }
+9 silly lockFile 31361e36-m-crikeli-node-red-contrib-alexa https://github.com/crikeli/node-red-contrib-alexa
+10 verbose lock https://github.com/crikeli/node-red-contrib-alexa /Users/kelinchristi/.npm/31361e36-m-crikeli-node-red-contrib-alexa.lock
+11 verbose addRemoteTarball [ 'https://github.com/crikeli/node-red-contrib-alexa', null ]
+12 info retry fetch attempt 1 at 01:10:35
+13 verbose fetch to= /tmp/npm-12654-p1Ml0myF/github.com/crikeli/node-red-contrib-alexa
+14 http GET https://github.com/crikeli/node-red-contrib-alexa
+15 http 200 https://github.com/crikeli/node-red-contrib-alexa
+16 verbose tar unpack /tmp/npm-12654-p1Ml0myF/github.com/crikeli/node-red-contrib-alexa
+17 silly lockFile ed8b2f61-li-node-red-contrib-alexa-unpack tar:///tmp/npm-12654-p1Ml0myF/github.com/crikeli/node-red-contrib-alexa-unpack
+18 verbose lock tar:///tmp/npm-12654-p1Ml0myF/github.com/crikeli/node-red-contrib-alexa-unpack /Users/kelinchristi/.npm/ed8b2f61-li-node-red-contrib-alexa-unpack.lock
+19 silly lockFile c19d1f2f-m-crikeli-node-red-contrib-alexa tar:///tmp/npm-12654-p1Ml0myF/github.com/crikeli/node-red-contrib-alexa
+20 verbose lock tar:///tmp/npm-12654-p1Ml0myF/github.com/crikeli/node-red-contrib-alexa /Users/kelinchristi/.npm/c19d1f2f-m-crikeli-node-red-contrib-alexa.lock
+21 silly gunzTarPerm modes [ '755', '644' ]
+22 error not a package /tmp/npm-12654-p1Ml0myF/github.com/crikeli/node-red-contrib-alexa
+23 silly lockFile ed8b2f61-li-node-red-contrib-alexa-unpack tar:///tmp/npm-12654-p1Ml0myF/github.com/crikeli/node-red-contrib-alexa-unpack
+24 silly lockFile ed8b2f61-li-node-red-contrib-alexa-unpack tar:///tmp/npm-12654-p1Ml0myF/github.com/crikeli/node-red-contrib-alexa-unpack
+25 silly lockFile c19d1f2f-m-crikeli-node-red-contrib-alexa tar:///tmp/npm-12654-p1Ml0myF/github.com/crikeli/node-red-contrib-alexa
+26 silly lockFile c19d1f2f-m-crikeli-node-red-contrib-alexa tar:///tmp/npm-12654-p1Ml0myF/github.com/crikeli/node-red-contrib-alexa
+27 silly lockFile 31361e36-m-crikeli-node-red-contrib-alexa https://github.com/crikeli/node-red-contrib-alexa
+28 silly lockFile 31361e36-m-crikeli-node-red-contrib-alexa https://github.com/crikeli/node-red-contrib-alexa
+29 error Error: ENOENT, open '/tmp/npm-12654-p1Ml0myF/github.com/crikeli/node-red-contrib-alexa-unpack/package.json'
+30 error If you need help, you may report this *entire* log,
+30 error including the npm and node versions, at:
+30 error     <http://github.com/npm/npm/issues>
+31 error System Darwin 16.0.0
+32 error command "/Users/kelinchristi/.nvm/v0.10.36/bin/node" "/Users/kelinchristi/.nvm/v0.10.36/bin/npm" "install" "https://github.com/crikeli/node-red-contrib-alexa"
+33 error cwd /Users/kelinchristi/Documents/node-red-heroku-master
+34 error node -v v0.10.36
+35 error npm -v 1.4.28
+36 error path /tmp/npm-12654-p1Ml0myF/github.com/crikeli/node-red-contrib-alexa-unpack/package.json
+37 error code ENOENT
+38 error errno 34
+39 verbose exit [ 34, true ]
