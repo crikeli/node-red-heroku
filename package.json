@@ -1,7 +1,10 @@
 {
     "name"         : "node-red-heroku",
     "version"      : "0.0.1",
+<<<<<<< HEAD
     "private"      : "true", 
+=======
+>>>>>>> 96badea5b33de60fc34620f8fd10d5e0430ec97d
     "dependencies": {
         "when": "~3.x",
         "mongodb": "~1.4.x",
@@ -9,7 +12,11 @@
         "feedparser":"~0.19.2",
         "redis":"~0.10.1",
         "node-red": "0.x",
+<<<<<<< HEAD
         "node-red-contrib-admin":"0.x",
         "node-red-contrib-alexa":"0.0.6"
+=======
+        "node-red-contrib-admin":"0.x"
+>>>>>>> 96badea5b33de60fc34620f8fd10d5e0430ec97d
     }
 }
