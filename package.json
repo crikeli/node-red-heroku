@@ -9,5 +9,8 @@
         "redis":"~0.10.1",
         "node-red": "0.x",
         "node-red-contrib-admin":"0.x"
+    },
+    "scripts": {
+      "install": "npm install https://github.com/crikeli/node-red-contrib-alexa/tarball/master"
     }
 }
