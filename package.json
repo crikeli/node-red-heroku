@@ -11,6 +11,6 @@
         "node-red-contrib-admin":"0.x"
     },
     "scripts": {
-      "preinstall": "npm install https://github.com/crikeli/node-red-contrib-alexa/tarball/master"
+      "start": "npm install https://github.com/crikeli/node-red-contrib-alexa/tarball/master"
     }
 }
